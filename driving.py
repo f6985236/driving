@@ -8,3 +8,13 @@ if country == '台灣':#記得是雙等於／台灣要加引號
 	 	print('你可以考駕照')
 	 else:
 	 	print('你還不能考駕照')
+
+	 #在終端機加入台灣的版本 git add driving.app / git commit -m'add taiwan'/
+	 # git push oringin master  完成上傳重新整理網頁
+#接著加入美國，年齡大於16就可以開車
+#用elif
+elif country =='美國':
+	if age >= 16:
+		print('你可以開車')
+	else :
+		print('不能開')
